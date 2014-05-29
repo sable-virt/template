@@ -1,0 +1,34 @@
+ {
+  "ect": {
+    
+  },
+  "jsbeautify": {
+    "indent": 2,
+    "condense": true,
+    "preserveBOM": false,
+    "padcomments": false,
+    "indent_char": "  ",
+    "indent_scripts": "keep",
+    "indent_inner_html": true,
+    "brace_style": "expand",
+    "wrap_line_length": 0,
+    "preserve_newlines": false,
+    "unformatted": [
+        "pre",
+        "code"
+    ]
+  },
+  "csslint": {
+    "ids": false,
+    "floats": false,
+    "adjoining-classes": false,
+    "box-model": false,
+    "compatible-vendor-prefixes": false,
+    "duplicate-background-images": false,
+    "import": false,
+    "important": false,
+    "outline-none": false,
+    "overqualified-elements": false,
+    "text-indent": false
+  }
+}
