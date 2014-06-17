@@ -134,11 +134,18 @@ module.exports = function (grunt) {
                 force: true
             }
         },
-        glue: {
+        spglue: {
+            options: {
+                margin: 3,
+                scss: true,
+                img: '<%=app.path%>/images/sprites',
+                css: '<%=app.path%>/sass/sprites',
+                project: true
+            },
             icons: {
-                src:"<%=app.path%>/images/sprites",
-                dest: './',
-                options: "--margin=3 --scss --img=<%=app.path%>/images/sprites --css=<%=app.path%>/sass/sprites --project"
+                files: {
+                    './': '<%=app.path%>/images/sprites'
+                }
             }
         },
         uglify: {
