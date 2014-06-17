@@ -49,4 +49,5 @@ ECT,SASSを再コンパイル、bowerInstallを実行
 * [grunt-ect](https://www.npmjs.org/package/grunt-ect)
 * [grunt-prettify](https://github.com/jonschlinkert/grunt-prettify)
 * [grunt-sass](https://github.com/sindresorhus/grunt-sass)
+* [grunt-sprite-glue](https://github.com/frontainer/grunt-sprite-glue)
 * [node-bourbon](https://www.npmjs.org/package/node-bourbon)
